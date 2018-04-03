@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.evliveraya.evote.FragmentMainMenu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fragment_main_menu_my_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="My Account"
+            android:background="@color/mainColor"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/fragment_main_menu_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vote"
+            android:background="@color/mainColor"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/fragment_main_menu_quick_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Count"
+            android:background="@color/mainColor"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/fragment_main_menu_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@color/mainColor"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.evliveraya.evote.LoginActivity"
+    android:padding="50dp">
+
+    <TextView
+        android:id="@+id/login_evote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="E-Vote"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/mainColor" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_evote"
+        android:text="email"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/gray"
+        android:clickable="true"/>
+    
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_email"
+        android:text="Password"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/gray"
+        android:clickable="true"
+        android:inputType="textPassword"/>
+    
+    <Button
+        android:id="@+id/login_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@color/mainColor"/>
+
+    <TextView
+        android:id="@+id/login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/login_login"
+        android:layout_alignRight="@id/login_login"
+        android:text="Register"
+        android:background="@color/white"
+        android:clickable="true" />
+
+</RelativeLayout>
